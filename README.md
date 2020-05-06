@@ -1,5 +1,7 @@
 # EasyDrinks_2.0
 
+![Farmers Market Finder Demo](demo/EasyDrinks.gif)
+
 Application made using the React Native framework, it is a recipe guide for the most diverse types of drinks.
 
 ### Run this project on your PC

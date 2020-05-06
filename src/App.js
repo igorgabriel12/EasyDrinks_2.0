@@ -1,13 +1,11 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
+import { Root } from 'native-base';
+import createRouter from './Routes';
 
-import {Root} from 'native-base';
-import Routes from './Routes';
-
-export default (props) => {
+export default () => {
   // console.disableYellowBox = true;
-  return (
-    <Root>
-      <Routes teste={'teste'} />
-    </Root>
-  );
+  const filters = useSelector((state) => state.filters);
+  console.log({ filters });
+  return createRouter(filters);
 };

@@ -1,6 +1,6 @@
 import * as React from 'react';
-import {NavigationContainer} from '@react-navigation/native';
-import {createStackNavigator} from '@react-navigation/stack';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
 
 import Drinks from './screen/drinks';
 import Category from './screen/category';
@@ -8,7 +8,8 @@ import Drink_Details from './screen/drink_details';
 
 const Stack = createStackNavigator();
 
-export default function Routes(props) {
+export default function createRouter(props) {
+  console.log({ props });
   return (
     <NavigationContainer>
       <Stack.Navigator
