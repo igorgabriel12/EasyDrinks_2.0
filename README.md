@@ -33,3 +33,4 @@ if you want to run the application on an iphone it will be necessary to run the 
 ```sh
 react-native run-ios or react-native run-android
 ```
+ 
